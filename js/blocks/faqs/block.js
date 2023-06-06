@@ -1,0 +1,1 @@
+import {    registerBlockType,} from '@wordpress/blocks';import FaqsEdit from "./edit";import save from "./save";registerBlockType( 'my-custom-blocks/faqs-block', {    title: 'Faqs block',    icon: 'smiley',    category: 'my-custom-blocks',    edit: FaqsEdit,    save: save} );

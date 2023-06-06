@@ -1,0 +1,1 @@
+import './blocks/faqs/block.js';

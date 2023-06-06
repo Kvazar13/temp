@@ -1,0 +1,1 @@
+export default ( props ) => {    const {        attributes,    } = props;    return (        <div>Save Component</div>    )}
