@@ -18863,7 +18863,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('my-custom-blocks/faqs-block', {
+
+// registerBlockType( 'my-custom-blocks/faqs-block', {
+//     title: 'Faqs block',
+//     icon: 'smiley',
+//     category: 'my-custom-blocks',
+//     edit: FaqsEdit,
+//     save: save
+// } );
+
+(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('my-custom-blocks/faqs', {
   title: 'Faqs block',
   icon: 'smiley',
   category: 'my-custom-blocks',
